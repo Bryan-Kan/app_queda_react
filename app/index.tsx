@@ -27,7 +27,7 @@ export default function Index() {
   };
 
   const checkForFall = async ({ x, y, z }:{x:number, y:number, z: number}) => {
-    const limit = 1.5; // Limite de aceleração para detecção de queda
+    const limit = 1.6; // Limite de aceleração para detecção de queda
     if (Math.abs(x) > limit || Math.abs(y) > limit || Math.abs(z) > limit) {
       let location = await Location.getCurrentPositionAsync({});
       setLocation(location);
