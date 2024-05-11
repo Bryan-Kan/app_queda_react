@@ -3,4 +3,4 @@
 Por:
 
 - Bryan Braggion
-- Caroline
+- Caroline de Souza
